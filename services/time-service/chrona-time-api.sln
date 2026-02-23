@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AAF8986B-F632-4ECE-8806-6FF026E66DE4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{88CF2F54-E2B1-4B1B-A79D-67776FC38F2E}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chrona.Time.Application", "src\Chrona.Time.Application\Chrona.Time.Application.csproj", "{994DA58D-5AF7-42BD-A1DB-C38D16C4B2EF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chrona.Time.Domain", "src\Chrona.Time.Domain\Chrona.Time.Domain.csproj", "{A09683D2-4E5C-4258-B403-9137CCBB4B91}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chrona.Time.Infrastructure", "src\Chrona.Time.Infrastructure\Chrona.Time.Infrastructure.csproj", "{C492D8B9-B90A-47D5-8A67-13E474448065}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chrona.Time.Presentation", "src\Chrona.Time.Presentation\Chrona.Time.Presentation.csproj", "{273E7B97-FE5F-4034-825F-C3EA9FCC01A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{994DA58D-5AF7-42BD-A1DB-C38D16C4B2EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{994DA58D-5AF7-42BD-A1DB-C38D16C4B2EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{994DA58D-5AF7-42BD-A1DB-C38D16C4B2EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{994DA58D-5AF7-42BD-A1DB-C38D16C4B2EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A09683D2-4E5C-4258-B403-9137CCBB4B91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A09683D2-4E5C-4258-B403-9137CCBB4B91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A09683D2-4E5C-4258-B403-9137CCBB4B91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A09683D2-4E5C-4258-B403-9137CCBB4B91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C492D8B9-B90A-47D5-8A67-13E474448065}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C492D8B9-B90A-47D5-8A67-13E474448065}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C492D8B9-B90A-47D5-8A67-13E474448065}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C492D8B9-B90A-47D5-8A67-13E474448065}.Release|Any CPU.Build.0 = Release|Any CPU
+		{273E7B97-FE5F-4034-825F-C3EA9FCC01A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{273E7B97-FE5F-4034-825F-C3EA9FCC01A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{273E7B97-FE5F-4034-825F-C3EA9FCC01A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{273E7B97-FE5F-4034-825F-C3EA9FCC01A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{994DA58D-5AF7-42BD-A1DB-C38D16C4B2EF} = {AAF8986B-F632-4ECE-8806-6FF026E66DE4}
+		{A09683D2-4E5C-4258-B403-9137CCBB4B91} = {AAF8986B-F632-4ECE-8806-6FF026E66DE4}
+		{C492D8B9-B90A-47D5-8A67-13E474448065} = {AAF8986B-F632-4ECE-8806-6FF026E66DE4}
+		{273E7B97-FE5F-4034-825F-C3EA9FCC01A7} = {AAF8986B-F632-4ECE-8806-6FF026E66DE4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {409A851F-9F03-4F6F-A729-E586603A6990}
+	EndGlobalSection
+EndGlobal
