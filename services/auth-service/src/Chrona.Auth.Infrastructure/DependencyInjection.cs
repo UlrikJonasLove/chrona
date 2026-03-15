@@ -1,10 +1,11 @@
-﻿using Chrona.Time.Application.Interfaces;
-using Chrona.Time.Infrastructure.Data;
+﻿using Chrona.Auth.Application.Interfaces;
+using Chrona.Auth.Infrastructure.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
+using Chrona.Auth.Infrastructure.Services;
 
-namespace Chrona.Time.Infrastructure;
+namespace Chrona.Auth.Infrastructure;
 
 public static class DependencyInjection
 {
@@ -19,6 +20,7 @@ public static class DependencyInjection
 		});
 
 		services.AddScoped<IApplicationDbContext, ApplicationDbContext>();
+		services.AddScoped<ITokenService, TokenService>();
 
 		return services;
 	}

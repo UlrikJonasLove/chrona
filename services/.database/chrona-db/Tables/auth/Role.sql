@@ -1,0 +1,14 @@
+﻿CREATE TABLE [auth].[Role]
+(
+	[Id] BIGINT IDENTITY(1,1) NOT NULL,
+	[Name] NVARCHAR(50) NOT NULL,
+	[CreatedAtUtc] DATETIME2(3) NOT NULL CONSTRAINT [DF_auth_Role_CreatedAtUtc] DEFAULT (SYSUTCDATETIME()),
+
+	CONSTRAINT [PK_auth_Role] PRIMARY KEY CLUSTERED ([Id] ASC),
+	CONSTRAINT [UQ_auth_Role_Name] UNIQUE ([Name])
+);
+GO
+
+CREATE UNIQUE INDEX [UX_auth_Role_Name]
+	ON [auth].[Role] ([Name]);
+GO
