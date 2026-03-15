@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AAF8986B-F632-4ECE-8806-6FF026E66DE4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{88CF2F54-E2B1-4B1B-A79D-67776FC38F2E}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chrona.Auth.Application", "src\Chrona.Auth.Application\Chrona.Auth.Application.csproj", "{D0BEBAEC-4B8B-4E05-AAC8-77A035AEDF31}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chrona.Auth.Domain", "src\Chrona.Auth.Domain\Chrona.Auth.Domain.csproj", "{A3F190D6-83FC-499B-B04A-C60EA8F99912}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chrona.Auth.Infrastructure", "src\Chrona.Auth.Infrastructure\Chrona.Auth.Infrastructure.csproj", "{E44B1168-51DD-4176-B8C6-31751B4EA633}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chrona.Auth.Presentation", "src\Chrona.Auth.Presentation\Chrona.Auth.Presentation.csproj", "{C47D36EB-40F7-44EC-868F-4320B6A99F9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0BEBAEC-4B8B-4E05-AAC8-77A035AEDF31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0BEBAEC-4B8B-4E05-AAC8-77A035AEDF31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0BEBAEC-4B8B-4E05-AAC8-77A035AEDF31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0BEBAEC-4B8B-4E05-AAC8-77A035AEDF31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3F190D6-83FC-499B-B04A-C60EA8F99912}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3F190D6-83FC-499B-B04A-C60EA8F99912}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3F190D6-83FC-499B-B04A-C60EA8F99912}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3F190D6-83FC-499B-B04A-C60EA8F99912}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E44B1168-51DD-4176-B8C6-31751B4EA633}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E44B1168-51DD-4176-B8C6-31751B4EA633}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E44B1168-51DD-4176-B8C6-31751B4EA633}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E44B1168-51DD-4176-B8C6-31751B4EA633}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C47D36EB-40F7-44EC-868F-4320B6A99F9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C47D36EB-40F7-44EC-868F-4320B6A99F9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C47D36EB-40F7-44EC-868F-4320B6A99F9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C47D36EB-40F7-44EC-868F-4320B6A99F9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D0BEBAEC-4B8B-4E05-AAC8-77A035AEDF31} = {AAF8986B-F632-4ECE-8806-6FF026E66DE4}
+		{A3F190D6-83FC-499B-B04A-C60EA8F99912} = {AAF8986B-F632-4ECE-8806-6FF026E66DE4}
+		{E44B1168-51DD-4176-B8C6-31751B4EA633} = {AAF8986B-F632-4ECE-8806-6FF026E66DE4}
+		{C47D36EB-40F7-44EC-868F-4320B6A99F9B} = {AAF8986B-F632-4ECE-8806-6FF026E66DE4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {409A851F-9F03-4F6F-A729-E586603A6990}
+	EndGlobalSection
+EndGlobal
